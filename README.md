@@ -39,7 +39,7 @@ export default () => {
   }
 
   render() {
-    return <DarkToggler size='middle' isDark={isDark} onClick={darkModeTogger} />
+    return <DarkToggler size='small' isDark={isDark} onClick={darkModeTogger} />
   }
 }
 ```
