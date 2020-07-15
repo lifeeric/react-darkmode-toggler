@@ -1,6 +1,5 @@
 # react-darkmode-toggler
 
-![image]()
 <p align="center">
   <img src="https://i.ibb.co/28G6dL7/darkmode.gif">
 </p>
