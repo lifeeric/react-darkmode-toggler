@@ -1,8 +1,8 @@
 # react-darkmode-toggler
 
-![image](https://i.ibb.co/28G6dL7/darkmode.gif)
+![image]()
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cawfree/night-mode-toggle/HEAD/assets/title.gif" width="300" height="300">
+  <img src="https://i.ibb.co/28G6dL7/darkmode.gif">
 </p>
 
 > Made with create-react-library
