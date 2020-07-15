@@ -1,10 +1,13 @@
 # react-darkmode-toggler
 
-![image](darkmode.gif)
+![image](https://i.ibb.co/28G6dL7/darkmode.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cawfree/night-mode-toggle/HEAD/assets/title.gif" width="300" height="300">
+</p>
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/darkmode.svg)](https://www.npmjs.com/package/darkmode) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/darkmode.svg)](https://www.npmjs.com/package/react-darkmode-toggler) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
