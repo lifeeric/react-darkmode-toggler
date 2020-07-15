@@ -1,6 +1,5 @@
 # react-darkmode-toggler
 
-
 ![image](https://i.ibb.co/28G6dL7/darkmode.gif)
 
 > Made with create-react-library
@@ -24,7 +23,8 @@ yarn add react-darkmode-toggler
 ```tsx
 import React, { Component } from 'react'
 
-import DarkModeToggler from 'darkmode'
+import { DarkToggler } from "react-darkmode-toggler";
+
 
 export default () => {
 
@@ -42,16 +42,15 @@ export default () => {
 }
 ```
 
-## [](https://github.com/lifeeric)![pushpin](https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png)  Props
+## [](https://github.com/lifeeric)![pushpin](https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png) Props
 
 ```markdown
 | Props   | Types   | Default | Required |
-|---------|---------|---------|----------|
+| ------- | ------- | ------- | -------- |
 | isDark  | boolean | false   | Yes      |
 | onClick | func    | null    | yes      |
 | size    | string  | middle  | no       |
 ```
-
 
 ## License
 
