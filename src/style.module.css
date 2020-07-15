@@ -1,0 +1,115 @@
+.switch {
+  display: flex;
+  height: 36px;
+  position: relative;
+  width: 70px;
+}
+
+/** small */
+.container.small .switch {
+  height: 23px;
+  width: 50px;
+}
+
+
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #fff;
+  border: 1px solid #000;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 1px;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #333;
+  border: 1px solid #000;
+  bottom: 3px;
+  content: '';
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+  z-index: 421;
+}
+
+/** Small */
+.container.small .slider:before {
+  width: 13px;
+  height: 13px;
+}
+
+input:checked + .slider {
+  background-color: #101211;
+}
+
+input:checked + .slider:before {
+  transform: translateX(34px);
+  border-color: #cfcfcf;
+  background-color: #efefef;
+}
+
+/** Small */
+.container.small input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.togglemoon,
+.togglesun {
+  width: 50%;
+  text-align: center;
+  padding: 0.25em;
+  position: relative;
+  z-index: 420;
+  font-size: 20px;
+}
+
+/** Samall */
+.container.small .togglemoon,
+.container.small .togglesun {
+  width: 10%;
+  font-size: 15px;
+}
+
+.togglemoon {
+  left: -2px;
+}
+.container.small .togglemoon {
+  font-size: 14px !important;
+  left: 0.8px;
+  top: 0;
+}
+
+
+.togglesun {
+  left: 7px;
+  top: 1px;
+}
+
+.container.small .togglesun {
+  top: -1px;
+  left: 1px;
+}
+
+
