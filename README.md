@@ -1,7 +1,7 @@
 # react-darkmode-toggler
 
 <p align="center">
-  <img src="https://i.ibb.co/28G6dL7/darkmode.gif">
+  ![image](https://i.ibb.co/28G6dL7/darkmode.gif)
 </p>
 
 > Made with create-react-library
