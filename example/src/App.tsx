@@ -10,7 +10,9 @@ const App = () => {
   }
 
   return (
+    <div className="container">
       <DarkToggler size='middle' isDark={isDark} onClick={darkModeTogger} />
+    </div>
   )
 }
 
