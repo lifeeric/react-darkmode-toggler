@@ -55,6 +55,7 @@ export default () => {
 | isDark  | boolean | false   | Yes      |
 | onClick | func    | null    | yes      |
 | size    | string  | middle  | no       |
+| border  | string  | #000    | no       |
 ```
 
 ## License

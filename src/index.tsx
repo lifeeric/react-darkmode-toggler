@@ -7,11 +7,13 @@ interface Props {
   onClick: () => void
   isDark?: boolean
   size?: string
+  border?: string
 }
 export const DarkToggler: React.FC<Props> = ({
   onClick,
   isDark = false,
-  size
+  size,
+  border = '#000'
 }) => {
   return (
     <div
@@ -30,7 +32,12 @@ export const DarkToggler: React.FC<Props> = ({
           onChange={onClick}
           id='checkbox'
         />
-        <div className={`${classes.slider} ${classes.round}`}> </div>
+        <div
+          style={{ borderColor: border }}
+          className={`${classes.slider} ${classes.round}`}
+        >
+          {' '}
+        </div>
         <div className={isDark ? classes.togglemoon : classes.hide}>🌙</div>
         <div className={isDark ? classes.hide : classes.togglesun}>☀️</div>
       </label>

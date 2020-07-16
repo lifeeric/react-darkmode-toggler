@@ -19,7 +19,8 @@
 
 .slider {
   background-color: #fff;
-  border: 1px solid #000;
+  border-width: 1px;
+  border-style: solid;
   bottom: 0;
   cursor: pointer;
   left: 0;

@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <DarkToggler size='middle' isDark={isDark} onClick={darkModeTogger} />
+      <DarkToggler size='middle' isDark={isDark} onClick={darkModeTogger} border="#000" />
     </div>
   )
 }

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`first Should render two  1`] = `
+exports[`first Should render true  1`] = `
 <div
   className="container small"
 >
@@ -17,6 +17,50 @@ exports[`first Should render two  1`] = `
     />
     <div
       className="slider round"
+      style={
+        Object {
+          "borderColor": "#000",
+        }
+      }
+    >
+       
+    </div>
+    <div
+      className="hide"
+    >
+      🌙
+    </div>
+    <div
+      className="togglesun"
+    >
+      ☀️
+    </div>
+  </label>
+</div>
+`;
+
+exports[`first Should render twice true  1`] = `
+<div
+  className="container small"
+>
+  <label
+    className="switch"
+    htmlFor="checkbox"
+    title="Change color scheme to dark mode"
+  >
+    <input
+      checked={false}
+      id="checkbox"
+      onChange={[MockFunction]}
+      type="checkbox"
+    />
+    <div
+      className="slider round"
+      style={
+        Object {
+          "borderColor": "#000",
+        }
+      }
     >
        
     </div>
