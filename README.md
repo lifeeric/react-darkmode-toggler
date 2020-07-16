@@ -41,9 +41,7 @@ export default () => {
     setIsChecked((isDark) => !isDark)
   }
 
-  render() {
-    return <DarkToggler size='small' isDark={isDark} onClick={darkModeTogger} />
-  }
+  return <DarkToggler size='small' isDark={isDark} onClick={darkModeTogger} />
 }
 ```
 
