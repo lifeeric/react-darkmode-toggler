@@ -3,6 +3,7 @@ import { FaSun } from 'react-icons/fa'
 import { BsMoon } from 'react-icons/bs'
 // import 'learning-npm-package/dist/index.css'
 import classes from './styles.module.css'
+require('./index.css')
 
 interface Props {
   onClick: () => void
