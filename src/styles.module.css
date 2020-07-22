@@ -18,6 +18,7 @@
 }
 
 .toggle__slide {
+  position: relative;
   width: 26px;
   height: 26px;
   border-radius: 20px;
@@ -32,19 +33,17 @@
   font-size: 23px;
   position: absolute;
   top: 4px;
-  color: #fdc13c;
+  color: #fdc13c !important;
 }
 
 .toggle__sunlight {
   right: 3.3px;
-  z-index: -1;
 }
 
 .toggle__moon {
   top: 0px;
   left: 3.3px;
   transform: rotate(240deg);
-  z-index: -1;
 }
 
 .dark .toggle__slide {

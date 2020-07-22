@@ -13,12 +13,15 @@ const App = () => {
   }
 
   return (
-    <DarkModeToggler
-      size='middle'
-      isDark={isDark}
-      onClick={darkModeHandler}
-      border='#fff'
-    />
+    <div className={`container ${isDark === 'dark' && 'dark'}`}>
+      <h1>React-DarkMode-Toggler</h1>
+      <DarkModeToggler
+        size='middle'
+        isDark={isDark}
+        onClick={darkModeHandler}
+        border='#fff'
+      />
+    </div>
   )
 }
 
