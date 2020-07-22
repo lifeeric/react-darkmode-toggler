@@ -1,6 +1,6 @@
 {
-  "short_name": "darkmode",
-  "name": "darkmode",
+  "short_name": "react-darkmode-toggler",
+  "name": "react-darkmode-toggler",
   "icons": [
     {
       "src": "favicon.ico",
