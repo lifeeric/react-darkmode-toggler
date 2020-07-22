@@ -51,7 +51,7 @@ const App = () => {
 ```markdown
 | Props   | Types               | Default | Required |
 | ------- | ------------------- | ------- | -------- |
-| isDark  | light `or` dark     | 'light' | no       |
+| isDark  | `light` or `dark`   | 'light' | no       |
 | onClick | func                | null    | yes      |
 | size    | `middle` or `small` | no      | no       |
 | border  | hex color           | #000    | no       |
