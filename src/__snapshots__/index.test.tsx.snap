@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExampleComponent general 1`] = `
+<div
+  className="toggle small"
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Object {
+      "borderColor": "",
+    }
+  }
+>
+  <div
+    className="toggle__slide"
+  />
+  <span
+    className="toggle__sunlight"
+  >
+    <FaSun />
+  </span>
+  <span
+    className="toggle__moon"
+  >
+    <BsMoon />
+  </span>
+</div>
+`;
+
+exports[`ExampleComponent should return border and small 1`] = `
+<div
+  className="toggle small"
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "borderColor": "",
+    }
+  }
+>
+  <div
+    className="toggle__slide"
+  />
+  <span
+    className="toggle__sunlight"
+  >
+    <FaSun />
+  </span>
+  <span
+    className="toggle__moon"
+  >
+    <BsMoon />
+  </span>
+</div>
+`;
+
+exports[`ExampleComponent should return border value  1`] = `
+<div
+  className="toggle"
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Object {
+      "borderColor": "",
+    }
+  }
+>
+  <div
+    className="toggle__slide"
+  />
+  <span
+    className="toggle__sunlight"
+  >
+    <FaSun />
+  </span>
+  <span
+    className="toggle__moon"
+  >
+    <BsMoon />
+  </span>
+</div>
+`;

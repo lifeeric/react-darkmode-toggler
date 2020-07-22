@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.toggle {
+  width: 63px;
+  height: 30px;
+  border-width: 1px;
+  border-color: #121212;
+  border-style: solid;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+
+.toggle__slide {
+  width: 26px;
+  height: 26px;
+  border-radius: 20px;
+  background: #121212;
+  margin: 2px 3px;
+  transition: 0.4s ease-in-out;
+  z-index: 100;
+}
+
+.toggle__moon,
+.toggle__sunlight {
+  font-size: 23px;
+  position: absolute;
+  top: 4px;
+  color: #fdc13c;
+}
+
+.toggle__sunlight {
+  right: 3.3px;
+  z-index: -1;
+}
+
+.toggle__moon {
+  top: 0px;
+  left: 3.3px;
+  transform: rotate(240deg);
+  z-index: -1;
+}
+
+.dark .toggle__slide {
+  transform: translateX(31px);
+  background: #efefef;
+}
+
+.dark.toggle {
+  background: #121212;
+  z-index: 1;
+}
+
+/* =========== Small ========== */
+.toggle.small {
+  width: 48px;
+  height: 20px;
+}
+
+.small .toggle__slide {
+  width: 18px;
+  height: 18px;
+  margin: 1px 2px;
+}
+
+.small.dark .toggle__slide {
+  transform: translateX(26px);
+}
+
+.small .toggle__moon,
+.small .toggle__sunlight {
+  font-size: 16px;
+  top: 2px;
+}
+
+.small .toggle__moon {
+  top: 0px;
+}
