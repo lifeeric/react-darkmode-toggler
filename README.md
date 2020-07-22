@@ -1,6 +1,6 @@
 # react-darkmode-toggler
 
-![image](https://i.ibb.co/28G6dL7/darkmode.gif)
+![image](https://i.ibb.co/bXQSN4f/dark.gif)
 
 > Made with create-react-library
 
@@ -49,12 +49,12 @@ const App = () => {
 ## [](https://github.com/lifeeric)![pushpin](https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png) Props
 
 ```markdown
-| Props   | Types                | Default | Required |
-| ------- | -------------------  | ------- | -------- |
-| isDark  | light `or` dark      | 'light' | no       |
-| onClick | func                 | null    | yes      |
-| size    | `middle` or `small`  | no      | no       |
-| border  | hex color            | #000    | no       |
+| Props   | Types               | Default | Required |
+| ------- | ------------------- | ------- | -------- |
+| isDark  | light `or` dark     | 'light' | no       |
+| onClick | func                | null    | yes      |
+| size    | `middle` or `small` | no      | no       |
+| border  | hex color           | #000    | no       |
 ```
 
 ## License

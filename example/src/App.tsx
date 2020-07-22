@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <DarkModeToggler
-      size='small'
+      size='middle'
       isDark={isDark}
       onClick={darkModeHandler}
       border='#fff'
